@@ -1,0 +1,10 @@
+14:f(x1,x2)=sign(x21+x22−0.6)
+Generate a training set of N=1000 points on X=[−1,1]×[−1,1] with uniform probability of picking each x∈X. Generate simulated noise by flipping the sign of the output in a random 10% subset of the generated training set.
+Carry out Linear Regression without transformation, i.e., with feature vector: (1,x1,x2), to find the weight w, and use wlin directly for classification. What is the closest value to the classification (0/1) in-sample error (Ein)? Run the experiment 1000 times and take the average Ein in order to reduce variation in your results.
+
+15:Now, transform the training data into the following nonlinear feature vector:
+(1,x1,x2,x1x2,x21,x22)
+Find the vector w~ that corresponds to the solution of Linear Regression, and take it for classification.
+Which of the following hypotheses is closest to the one you find using Linear Regression on the transformed input? Closest here means agrees the most with your hypothesis (has the most probability of agreeing on a randomly selected point).
+
+16:What is the closest value to the classification out-of-sample error Eout of your hypothesis? Estimate it by generating a new set of 1000 points and adding noise as before. Average over 1000 runs to reduce the variation in your results.

@@ -1,0 +1,9 @@
+7:
+In class, we have taught that the update rule of the gradient descent algorithm is
+(ut+1,vt+1)=(ut,vt)−η E(ut,vt)
+Please start from (u0,v0)=(0,0), and fix η=0.01, what is E(u5,v5) after five updates?
+
+
+
+10:
+Using the Newton direction (without η) to update, please start from (u0,v0)=(0,0), what is E(u5,v5) after five updates
